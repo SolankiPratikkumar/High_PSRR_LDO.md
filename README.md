@@ -22,3 +22,52 @@
 ![VL804_Analog_IC_Project_LDO-images-17](https://github.com/user-attachments/assets/dd4ff310-cf57-4c3e-aed8-088e9f316d27)
 ![VL804_Analog_IC_Project_LDO-images-19](https://github.com/user-attachments/assets/487090bc-7bea-4d8f-8c65-fb22b98bf256)
 ![VL804_Analog_IC_Project_LDO-images-18](https://github.com/user-attachments/assets/8347dc29-5d6a-4e64-adc6-e2ce663b7e13)
+
+
+# Schematic to Layout GDS for LDO:
+
+# Normal Miller capacitor LDO:
+## DC Operating Point:
+
+![Op Screenshot from 2025-05-15 14-38-56](https://github.com/user-attachments/assets/b2362b37-6e7d-4fa6-9ae5-f7e8dabc0139)
+
+![Op Screenshot from 2025-05-15 14-39-07](https://github.com/user-attachments/assets/c7a19a26-2e8b-4373-965f-b74dc9169380)
+
+## Stability Phase Margin:
+
+![Screenshot from 2025-06-12 13-39-56](https://github.com/user-attachments/assets/f5cdd592-0771-44b4-a44d-1f6733def59e)
+
+![Loop Gain Screenshot from 2025-05-15 02-47-50](https://github.com/user-attachments/assets/618ed5ce-bbd8-4e65-861b-46f96fef3da2)
+
+## Open Loop PSRR:
+
+![Screenshot from 2025-06-12 13-41-28](https://github.com/user-attachments/assets/74eed35e-6a09-4ad5-a177-a464b16a8a8e)
+
+![OLPSRR Screenshot from 2025-05-15 04-43-32](https://github.com/user-attachments/assets/e18ec355-2b21-40d8-a431-ff6494aa7f9d)
+
+## Close Loop PSRR:
+
+![Screenshot from 2025-06-12 13-41-08](https://github.com/user-attachments/assets/d0bc97e7-e499-436e-a1e5-d8bea25f7ddf)
+
+![CLPSRR Screenshot from 2025-05-15 04-41-59](https://github.com/user-attachments/assets/d5db32cb-40b6-40cd-b10d-d0adb4e54e56)
+
+## Layout:
+## Layout Schematics:
+
+![Layout_Schematic](https://github.com/user-attachments/assets/c3046cf2-3d3b-44c1-ab11-4005329054e2)
+
+## Layout of Normal LDO:
+
+![Layout 1](https://github.com/user-attachments/assets/d69964c8-b10e-4c01-b954-f7fb052c7dd9)
+
+![Layout 2](https://github.com/user-attachments/assets/649c3e36-579a-4d05-b3df-2d24424d42b7)
+
+## Parasitic Extraction:
+
+![Screenshot from 2025-06-12 20-46-45](https://github.com/user-attachments/assets/9d9be5a0-57df-4468-a96f-0764a3ddf7ab)
+
+![Screenshot from 2025-06-12 20-47-19](https://github.com/user-attachments/assets/07924194-a10c-4309-976a-2c9c3eaa53c8)
+
+![Screenshot from 2025-06-12 20-38-55](https://github.com/user-attachments/assets/ff8caa0f-f0ba-40b9-8e29-e5584d433ce0)
+
+![Screenshot from 2025-06-12 20-38-07](https://github.com/user-attachments/assets/aa0e00b7-077d-4d61-be6d-a81737a6ae77)
