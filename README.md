@@ -71,3 +71,7 @@
 ![Screenshot from 2025-06-12 20-38-55](https://github.com/user-attachments/assets/ff8caa0f-f0ba-40b9-8e29-e5584d433ce0)
 
 ![Screenshot from 2025-06-12 20-38-07](https://github.com/user-attachments/assets/aa0e00b7-077d-4d61-be6d-a81737a6ae77)
+
+# LDO with passfet multiplier 4:
+
+
