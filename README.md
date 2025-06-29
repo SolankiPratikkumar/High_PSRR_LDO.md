@@ -23,9 +23,10 @@
 ![VL804_Analog_IC_Project_LDO-images-18](https://github.com/user-attachments/assets/8347dc29-5d6a-4e64-adc6-e2ce663b7e13)
 
 
-# Schematic to Layout GDS for LDO:
+# Schematic to Layout GDS for LDO with Internship:
 
 # Normal Miller capacitor LDO:
+
 ## DC Operating Point:
 
 ![Op Screenshot from 2025-05-15 14-38-56](https://github.com/user-attachments/assets/b2362b37-6e7d-4fa6-9ae5-f7e8dabc0139)
