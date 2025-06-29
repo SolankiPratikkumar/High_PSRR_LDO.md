@@ -2,7 +2,6 @@
 
 # For Analog CMOS Project Electives:
 
-
 ![VL804_Analog_IC_Project_LDO-images-1](https://github.com/user-attachments/assets/f96dcb35-bd8f-46c8-8798-86c3c5a101e6)
 ![VL804_Analog_IC_Project_LDO-images-2](https://github.com/user-attachments/assets/b22f56c1-7cb8-4a6c-9ff4-0b90e7aa36ea)
 ![VL804_Analog_IC_Project_LDO-images-3](https://github.com/user-attachments/assets/6ab3c696-b1f5-46a7-9a7b-d5a52d19848f)
@@ -81,19 +80,23 @@
 # LDO with passfet multiplier 4:
 
 ## Stability:
+
 ![Screenshot from 2025-06-12 15-37-25](https://github.com/user-attachments/assets/abe43361-5624-4f12-b2f0-bea48b55d505)
 
 ![Screenshot from 2025-06-12 16-05-47](https://github.com/user-attachments/assets/cdcfd71b-bfce-4568-9e78-158850ee9a86)
 
 ## DC operating Point:
+
 ![Screenshot from 2025-06-12 15-36-13](https://github.com/user-attachments/assets/d4ed3f43-a130-4318-b82f-e91738934e1c)
 
 ## Open Loop PSRR: 
+
 ![Screenshot from 2025-06-12 16-09-09](https://github.com/user-attachments/assets/38491393-a4ea-45de-a91c-b9c6ee77c7a1)
 
 ![Screenshot from 2025-06-12 16-30-10](https://github.com/user-attachments/assets/2e1203f5-7461-44cc-9aa4-65c2da4ff83c)
 
 ## Close Loop PSRR:
+
 ![Screenshot from 2025-06-12 16-39-06](https://github.com/user-attachments/assets/0b129cea-0354-4d57-bf8b-70edcdf630d0)
 
 ![Screenshot from 2025-06-12 16-44-17](https://github.com/user-attachments/assets/0bbe6f65-3778-43ff-b1d3-7467bc0ac261)
@@ -107,7 +110,7 @@
 
 ![Screenshot from 2025-06-12 18-50-39](https://github.com/user-attachments/assets/0ecff5cf-8355-402f-b614-bfea897c9630)
 
-![Screenshot from 2025-06-12 18-50-54](https://github.com/user-attachments/assets/245e4cd8-9dee-4e31-843b-68404ac79b7f)
+![1 1](https://github.com/user-attachments/assets/a42ab2b6-9cb0-4ed9-b157-3ff3b5705995)
 
 ![1 2](https://github.com/user-attachments/assets/721d2746-9b50-4f2c-9d20-0bc6ef6fadbf)
 
@@ -116,6 +119,7 @@
 ![Screenshot from 2025-06-12 21-57-47](https://github.com/user-attachments/assets/f6927b75-8fc2-421e-aff2-c291251d9d78)
 
 ## Stability:
+
 ![Screenshot from 2025-06-12 22-06-27](https://github.com/user-attachments/assets/1976b6d6-12b3-49e9-abf4-cfdcc1ca963b)
 
 ## Closed Loop PSRR: 
