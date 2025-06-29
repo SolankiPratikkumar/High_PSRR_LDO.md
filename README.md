@@ -62,6 +62,12 @@
 
 ![Layout 2](https://github.com/user-attachments/assets/649c3e36-579a-4d05-b3df-2d24424d42b7)
 
+## Verification Checks:
+
+![Screenshot from 2025-06-12 19-24-22](https://github.com/user-attachments/assets/282ff587-b917-4685-b99d-7efebd4ae8c3)
+
+![Screenshot from 2025-06-12 19-25-50](https://github.com/user-attachments/assets/8630272a-8f56-40a0-9a84-26d4d87d536c)
+
 ## Parasitic Extraction:
 
 ![Screenshot from 2025-06-12 20-46-45](https://github.com/user-attachments/assets/9d9be5a0-57df-4468-a96f-0764a3ddf7ab)
@@ -73,5 +79,53 @@
 ![Screenshot from 2025-06-12 20-38-07](https://github.com/user-attachments/assets/aa0e00b7-077d-4d61-be6d-a81737a6ae77)
 
 # LDO with passfet multiplier 4:
+
+## Stability:
+![Screenshot from 2025-06-12 15-37-25](https://github.com/user-attachments/assets/abe43361-5624-4f12-b2f0-bea48b55d505)
+
+![Screenshot from 2025-06-12 16-05-47](https://github.com/user-attachments/assets/cdcfd71b-bfce-4568-9e78-158850ee9a86)
+
+## DC operating Point:
+![Screenshot from 2025-06-12 15-36-13](https://github.com/user-attachments/assets/d4ed3f43-a130-4318-b82f-e91738934e1c)
+
+## Open Loop PSRR: 
+![Screenshot from 2025-06-12 16-09-09](https://github.com/user-attachments/assets/38491393-a4ea-45de-a91c-b9c6ee77c7a1)
+
+![Screenshot from 2025-06-12 16-30-10](https://github.com/user-attachments/assets/2e1203f5-7461-44cc-9aa4-65c2da4ff83c)
+
+## Close Loop PSRR:
+![Screenshot from 2025-06-12 16-39-06](https://github.com/user-attachments/assets/0b129cea-0354-4d57-bf8b-70edcdf630d0)
+
+![Screenshot from 2025-06-12 16-44-17](https://github.com/user-attachments/assets/0bbe6f65-3778-43ff-b1d3-7467bc0ac261)
+
+![Screenshot from 2025-06-12 17-49-55](https://github.com/user-attachments/assets/195a296f-45ff-4c51-9b07-738f755cb2b5)
+
+![Screenshot from 2025-06-12 18-55-57](https://github.com/user-attachments/assets/86671f75-252c-4d21-93a1-b404a5c35e3f)
+
+
+## Layout: 
+
+![Screenshot from 2025-06-12 18-50-39](https://github.com/user-attachments/assets/0ecff5cf-8355-402f-b614-bfea897c9630)
+
+![Screenshot from 2025-06-12 18-50-54](https://github.com/user-attachments/assets/245e4cd8-9dee-4e31-843b-68404ac79b7f)
+
+![1 2](https://github.com/user-attachments/assets/721d2746-9b50-4f2c-9d20-0bc6ef6fadbf)
+
+# LDO with multiplier miller cap 5n & parametric:
+
+![Screenshot from 2025-06-12 21-57-47](https://github.com/user-attachments/assets/f6927b75-8fc2-421e-aff2-c291251d9d78)
+
+## Stability:
+![Screenshot from 2025-06-12 22-06-27](https://github.com/user-attachments/assets/1976b6d6-12b3-49e9-abf4-cfdcc1ca963b)
+
+## Closed Loop PSRR: 
+
+![Screenshot from 2025-06-12 22-45-14](https://github.com/user-attachments/assets/47140aa0-3b3f-400f-946c-6a62a1ee8964)
+
+![Screenshot from 2025-06-12 22-42-13](https://github.com/user-attachments/assets/5c999688-3d97-479a-898c-7e9ffab66b9c)
+
+![Screenshot from 2025-06-12 22-44-56](https://github.com/user-attachments/assets/4d88b858-c5d3-4557-923a-0512485b70db)
+
+![Screenshot from 2025-06-12 21-57-31](https://github.com/user-attachments/assets/0da6adfd-967d-4522-8f13-bd301bff5211)
 
 
