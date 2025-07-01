@@ -5,7 +5,7 @@
 ![VL804_Analog_IC_Project_LDO-images-1](https://github.com/user-attachments/assets/f96dcb35-bd8f-46c8-8798-86c3c5a101e6)
 ![VL804_Analog_IC_Project_LDO-images-2](https://github.com/user-attachments/assets/b22f56c1-7cb8-4a6c-9ff4-0b90e7aa36ea)
 ![VL804_Analog_IC_Project_LDO-images-3](https://github.com/user-attachments/assets/6ab3c696-b1f5-46a7-9a7b-d5a52d19848f)
-![VL804_Analog_IC_Project_LDO-images-4](https://github.com/user-attachments/assets/7d978c0c-cd2a-4477-9dd4-1ee7be3a6c65)
+![VL804_Analog_IC_Project_LDO-images-4 (2)](https://github.com/user-attachments/assets/23201367-e941-48bc-9f9b-4b56e5773dd6)
 ![VL804_Analog_IC_Project_LDO-images-5](https://github.com/user-attachments/assets/8f1f7818-e0c4-4a18-a009-725c0db37e58)
 ![VL804_Analog_IC_Project_LDO-images-6](https://github.com/user-attachments/assets/77c7d568-13c7-4b0a-b807-d950621dfdf7)
 ![VL804_Analog_IC_Project_LDO-images-7](https://github.com/user-attachments/assets/6307c5d1-cffd-4a37-a1d6-6acb49c3b51b)
