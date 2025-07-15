@@ -61,7 +61,7 @@
 
 ![Layout 2](https://github.com/user-attachments/assets/649c3e36-579a-4d05-b3df-2d24424d42b7)
 
-## Verification Checks:
+## Verification DRC,LVS,ERC checks:
 
 ![Screenshot from 2025-06-12 19-24-22](https://github.com/user-attachments/assets/282ff587-b917-4685-b99d-7efebd4ae8c3)
 
