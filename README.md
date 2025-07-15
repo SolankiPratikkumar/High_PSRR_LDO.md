@@ -132,4 +132,12 @@
 
 ![Screenshot from 2025-06-12 21-57-31](https://github.com/user-attachments/assets/0da6adfd-967d-4522-8f13-bd301bff5211)
 
+# Key Takeaways:
 
+* Stability of Normal LDO with Phase Margin of 78.71 degree at 8.15kHz.
+* CLPSRR of -44.4dB at 1 Hz for miller compensated of 5nF normal LDO.
+* Prepared optimised layout with area single LDO is 1312.13 um^2 with clean DRC,LVS,ERC, and Parasitic Extraction.
+
+* Stability of LDO with Multiplier of 4 with miller compensated - Phase Margin of 69.72 degree at 25.8kHz.
+* CLPSRR of -85.31dB at 1 Hz for miller compensated of 5nF multiplier LDO.
+* Prepared optimised Layout with Area LDO with multiplier 4x is 3039.39 um^2 with clean DRC Checks.
