@@ -21,6 +21,13 @@
 ![VL804_Analog_IC_Project_LDO-images-19](https://github.com/user-attachments/assets/487090bc-7bea-4d8f-8c65-fb22b98bf256)
 ![VL804_Analog_IC_Project_LDO-images-18](https://github.com/user-attachments/assets/8347dc29-5d6a-4e64-adc6-e2ce663b7e13)
 
+## Key Takeaways:
+
+* Circuit was unstable without miller compensation with peaky loop gain at 1st pole.
+* By parametric sweep and theoretical calculator stability was improved simultaneously.
+* Make stability dependency on Miller capacitance Cc and got PSRR at Phase Margin of 45 and 70 degree respectively.
+* DC close loop PSRR at phase margin of 45 degree was coming out -58 dB at 1Hz
+* DC close loop PSRR at phase margin of 70 degree was coming out -71 dB at 1Hz
 
 # Schematic to Layout GDS for LDO Project with Internship:
 
@@ -137,7 +144,6 @@
 * Stability of Normal LDO with Phase Margin of 78.71 degree at 8.15kHz.
 * CLPSRR of -44.4dB at 1 Hz for miller compensated of 5nF normal LDO.
 * Prepared optimised layout with area single LDO is 1312.13 um^2 with clean DRC,LVS,ERC, and Parasitic Extraction.
-
-* Stability of LDO with Multiplier of 4 with miller compensated - Phase Margin of 69.72 degree at 25.8kHz.
+* Stability of LDO with Multiplier of 4x with miller compensated - Phase Margin of 69.72 degree at 25.8kHz.
 * CLPSRR of -85.31dB at 1 Hz for miller compensated of 5nF multiplier LDO.
-* Prepared optimised Layout with Area LDO with multiplier 4x is 3039.39 um^2 with clean DRC Checks.
+* Prepared optimised Layout with Area multiplier LDO is 3039.39 um^2 with clean DRC Checks.
