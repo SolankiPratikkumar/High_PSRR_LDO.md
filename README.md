@@ -1,4 +1,4 @@
-# LDO Design with High Power Supply Rejection Ratio:
+# LDO Design with Power Supply Rejection Ratio:
 
 # For Analog CMOS Project Electives:
 
@@ -22,7 +22,7 @@
 ![VL804_Analog_IC_Project_LDO-images-18](https://github.com/user-attachments/assets/8347dc29-5d6a-4e64-adc6-e2ce663b7e13)
 
 
-# Schematic to Layout GDS for LDO with Internship:
+# Schematic to Layout GDS for LDO Project with Internship:
 
 # Normal Miller capacitor LDO:
 
