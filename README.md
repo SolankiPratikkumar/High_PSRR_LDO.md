@@ -43,11 +43,35 @@
 | Design will **take more time** for lower technology nodes as second-order effects come in picture. | Design will comparatively **take less time** as we can have a script to design the entire topology. |
 | More accurate as **exact values are considered**. | **Can be less accurate** if the dataset taken to plot **techplots** is of less resolution. |
 
-Square Law vs gm/Id methodology
-Square law -based Approach	Techplot-based Approach
-As the length of the technology node decreases, the standard equation of gm/Id = 2/Vov is not valid and instead it follows a linear relation. Thus, we can’t apply square law for lower nm technology nodes.	While making techplots, we ask the tool to calculate the individual values of gm/Id, gmro, ft, and Id/w at different values of length instead of depending on the equation, and thus we get the exact curve which incorporates the short channel effects.
-Design will take time more for lower technology nodes as second-order effects come in picture.	Design will comparatively take less time as we can have a script to design the entire topology.
-More accurate as exact values are considered.	Can be less accurate if the dataset taken to plot techplots is of less resolution.
+### Why gm/Id over square Law
+* I am using the gm/Id method to size the transistors as I was working with relaxed constraints and the speed to design the circuits is comparitively faster for gm/Id methodology.
+* Most importantly as I am working with 45nm technology node short channel effects can come in the picture which will be taken care by the gm/Id methodology.
+
+### Techplots for gm/Id Methodology:
+* Comparison of different FOMs at different lengths
+<img width="473" height="124" alt="image" src="https://github.com/user-attachments/assets/2dcdf646-1f66-4bea-9da4-304b9ebde9f4" />
+* We chose the Vds to be 0.4 mV, and we expect that to result in some error because the Vds across every MOSFET might not be the same after sizing the circuit under a particular load. It is very possible that the Vds across the MOSFETs can change under different values of load current. The above phenomenon can be understood from the output log files mentioned below.
+
+### NMOS Techplots after Python postprocessing - Id/W:
+<img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/88b6cc59-109b-4c45-91df-e867949cbd3e" />
+
+### NMOS Techplots after Python postprocessing - gmro:
+<img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/43d6f388-be30-4d0c-8245-720d3d90389f" />
+
+### NMOS Techplots after Python postprocessing - fT:
+<img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/2a7b10fc-6e42-45fc-a825-e7f4018fcb00" />
+
+### PMOS Techplots after Python postprocessing - Id/W:
+<img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/f0ece32c-ca81-47b5-8058-f1a45b8670ff" />
+
+### PMOS Techplots after Python postprocessing - gmro:
+<img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/090339f0-abbf-45fa-b7f5-d343302f1f6d" />
+
+### PMOS Techplots after Python postprocessing - fT:
+<img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/449a26ec-6de4-45e5-a618-fac431199786" />
+
+### Observations on Technology Scaling Effects:
+<img width="855" height="299" alt="image" src="https://github.com/user-attachments/assets/7b4e980e-0b4b-4028-991d-1e845c6d368e" />
 
 ## DC Operating Point:
 
