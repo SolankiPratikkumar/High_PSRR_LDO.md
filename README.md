@@ -35,6 +35,20 @@
 
 ## Sizing by gm/Id methodology:
 
+## Square Law vs gm/Id Methodology
+
+| Square Law-based Approach | Techplot-based Approach |
+|---------------------------|--------------------------|
+| As the length of the technology node decreases, the standard equation of `gm/Id = 2/Vov` is not valid and instead it follows a linear relation. **Thus, we can’t apply square law for lower nm technology nodes.** | While making **techplots**, we ask the tool to calculate the individual values of `gm/Id`, `gm·ro`, `ft`, and `Id/W` at different values of length instead of depending on the equation, and thus we get the exact curve which incorporates the short channel effects. |
+| Design will **take more time** for lower technology nodes as second-order effects come in picture. | Design will comparatively **take less time** as we can have a script to design the entire topology. |
+| More accurate as **exact values are considered**. | **Can be less accurate** if the dataset taken to plot **techplots** is of less resolution. |
+
+Square Law vs gm/Id methodology
+Square law -based Approach	Techplot-based Approach
+As the length of the technology node decreases, the standard equation of gm/Id = 2/Vov is not valid and instead it follows a linear relation. Thus, we can’t apply square law for lower nm technology nodes.	While making techplots, we ask the tool to calculate the individual values of gm/Id, gmro, ft, and Id/w at different values of length instead of depending on the equation, and thus we get the exact curve which incorporates the short channel effects.
+Design will take time more for lower technology nodes as second-order effects come in picture.	Design will comparatively take less time as we can have a script to design the entire topology.
+More accurate as exact values are considered.	Can be less accurate if the dataset taken to plot techplots is of less resolution.
+
 ## DC Operating Point:
 
 ![Op Screenshot from 2025-05-15 14-38-56](https://github.com/user-attachments/assets/b2362b37-6e7d-4fa6-9ae5-f7e8dabc0139)
