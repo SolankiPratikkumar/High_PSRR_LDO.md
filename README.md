@@ -33,6 +33,8 @@
 
 # Normal Miller capacitor LDO:
 
+## Sizing by gm/Id methodology:
+
 ## DC Operating Point:
 
 ![Op Screenshot from 2025-05-15 14-38-56](https://github.com/user-attachments/assets/b2362b37-6e7d-4fa6-9ae5-f7e8dabc0139)
