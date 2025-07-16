@@ -50,6 +50,7 @@
 ### Techplots for gm/Id Methodology:
 * Comparison of different FOMs at different lengths
 <img width="473" height="124" alt="image" src="https://github.com/user-attachments/assets/2dcdf646-1f66-4bea-9da4-304b9ebde9f4" />
+
 * We chose the Vds to be 0.4 mV, and we expect that to result in some error because the Vds across every MOSFET might not be the same after sizing the circuit under a particular load. It is very possible that the Vds across the MOSFETs can change under different values of load current. The above phenomenon can be understood from the output log files mentioned below.
 
 ### NMOS Techplots after Python postprocessing - Id/W:
