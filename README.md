@@ -21,6 +21,11 @@
 ![VL804_Analog_IC_Project_LDO-images-19](https://github.com/user-attachments/assets/487090bc-7bea-4d8f-8c65-fb22b98bf256)
 ![VL804_Analog_IC_Project_LDO-images-18](https://github.com/user-attachments/assets/8347dc29-5d6a-4e64-adc6-e2ce663b7e13)
 
+## Observations: 
+
+* The phase margin obtained is 70 degrees. This value is higher compared to that obtained for a heavy load. In the case of externally compensated LDOs, we know that the second pole is independent of changes in load current, but both the unity gain bandwidth frequency and the first pole increase with an increase in the load current.
+* Thus, under light load conditions, the unity gain bandwidth frequency is further apart from the second pole compared to the heavy load conditions. These results indicate a better phase margin for light load conditions.
+  
 ## Key Takeaways:
 
 * Circuit was unstable without miller compensation with peaky loop gain at 1st pole.
@@ -105,11 +110,17 @@
 
 ![Op Screenshot from 2025-05-15 14-39-07](https://github.com/user-attachments/assets/c7a19a26-2e8b-4373-965f-b74dc9169380)
 
-## Stability Phase Margin:
+## Loop Gain - Stability,Phase Margin:
 
 ![Screenshot from 2025-06-12 13-39-56](https://github.com/user-attachments/assets/f5cdd592-0771-44b4-a44d-1f6733def59e)
 
 ![Loop Gain Screenshot from 2025-05-15 02-47-50](https://github.com/user-attachments/assets/618ed5ce-bbd8-4e65-861b-46f96fef3da2)
+
+### Explanation of the artifact used for Loop Gain:-
+
+* In order to calculate the loop gain we have given a RC circuit in the feedback loop along with a AC source with amplitude 1 (as we want to maintain an AC voltage of 1V) at the output.
+* At the same time we also need to bias the circuit and provide a dc voltage to the gate of the nmos in the differential amplifier and for this we are giving the RC circuit which will prevent the flow of dc current to ground but will send any AC signal at the output to ground at high frequency.
+* Also the drop across the resistor will be very less as we have given a very high resistance with very negligible current (since current going into the gate of the mosfet is zero). Thus we will bias the circuit and also calculate the loop gain.
 
 ## Open Loop PSRR:
 
@@ -117,11 +128,26 @@
 
 ![OLPSRR Screenshot from 2025-05-15 04-43-32](https://github.com/user-attachments/assets/e18ec355-2b21-40d8-a431-ff6494aa7f9d)
 
+### Explanation of the artifact used for Open Loop PSRR:-
+
+* In order to calculate the open loop PSRR we need to send an AC signal from the source which in our case is VDD. Here we are giving an AC=1 signal in the source. This signal is given to the source of the passfet and the source of pmos in the diffamp.
+* We will ideally want very bad PSRR in the diffamp as we want the OTA output to have all the AC noise such that Vsg of pmos = 0 (small signal analysis).Thus all the noise will get rejected and we will get a noise free dc voltage at the output of the LDO.
+* Here in order to calculate the open loop PSRR we have a RC circuit to bias the differential amplifier. You can see AC=0 in the circuit indicating that there is an open loop in the circuit. From here we have calculated the open loop PSRR in the circuit.
+* Since, there is no feedback in the circuit we can thus say that there will be noise at the output and thus the rejection will be very poor.
+
+#### Note:
+* Always observe the Vota output in volts because it will give you the insight into what AC voltage is coming into the gate of the passfet. It should be close to VDD.
+* The closer it is to 1v the better it is for a very bad PSRR at the output as the Vsg value will be close to 0.
+  
 ## Close Loop PSRR:
 
 ![Screenshot from 2025-06-12 13-41-08](https://github.com/user-attachments/assets/d0bc97e7-e499-436e-a1e5-d8bea25f7ddf)
 
 ![CLPSRR Screenshot from 2025-05-15 04-41-59](https://github.com/user-attachments/assets/d5db32cb-40b6-40cd-b10d-d0adb4e54e56)
+
+### Explanation of the artifact used for Close Loop PSRR:-
+* In this case we can see that we have given a AC source in the voltage source VDD. We want to see the negative feedback in the circuit due to which we will get the output voltage cancelled out (small signal analysis).
+* Here we should observe a high PSRR according to our specifications ( 60db) which tells us that our sizing is perfect. For this circuit we have given a feedback from the output terminal to the input of the diffamp which indicates the feedback path.
 
 ## Layout:
 ## Layout Schematics:
