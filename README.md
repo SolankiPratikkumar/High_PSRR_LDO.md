@@ -33,8 +33,8 @@
 * Circuit was unstable without miller compensation with peaky loop gain at 1st pole.
 * By parametric sweep and theoretical calculator stability was improved simultaneously.
 * Make stability dependency on Miller capacitance Cc and got PSRR at Phase Margin of 45 and 70 degree respectively.
-* DC close loop PSRR at phase margin of 45 degree was coming out -58 dB at 1Hz at 10mA
-* DC close loop PSRR at phase margin of 70 degree was coming out -71 dB at 1Hz at 50mA
+* DC close loop PSRR at phase margin of 45° was coming out -58 dB at 1Hz at 10mA
+* DC close loop PSRR at phase margin of 70° was coming out -71 dB at 1Hz at 50mA
 
 # Schematic to Layout GDS for LDO Project with Internship:
 
@@ -102,6 +102,10 @@
 
 <img width="356" height="158" alt="image" src="https://github.com/user-attachments/assets/5fb0b424-eae7-4e30-bb75-2323e38bce78" />
 
+#### Miller capacitance:
+
+`Cc = gm / tan(60°)`  for heavy load
+
 ## DC Operating Point:
 
 ![Op Screenshot from 2025-05-15 14-38-56](https://github.com/user-attachments/assets/b2362b37-6e7d-4fa6-9ae5-f7e8dabc0139)
@@ -145,7 +149,7 @@
 
 ### Explanation of the artifact used for Close Loop PSRR:
 * In this case we can see that we have given a AC source in the voltage source VDD. We want to see the negative feedback in the circuit due to which we will get the output voltage cancelled out (small signal analysis).
-* Here we should observe a high PSRR according to our specifications ( 60db) which tells us that our sizing is perfect. For this circuit we have given a feedback from the output terminal to the input of the diffamp which indicates the feedback path.
+* Here we should observe a high PSRR according to our specifications (60db) which tells us that our sizing is perfect. For this circuit we have given a feedback from the output terminal to the input of the diffamp which indicates the feedback path.
 
 ## Layout:
 ## Layout Schematics:
@@ -231,7 +235,7 @@
 
 # Key Takeaways:
 
-* Stability of Normal LDO with Phase Margin of 78.71 degree at 8.15kHz.
+* Stability of Normal LDO with Phase Margin of 78.71° at 8.15kHz.
 * CLPSRR of -44.4dB at 1 Hz for miller compensated of 5nF normal LDO.
 * Prepared optimised layout with area single LDO is 1312.13 um^2 with clean DRC,LVS,ERC, and Parasitic Extraction.
 * Stability of LDO with Multiplier of 4x with miller compensated - Phase Margin of 69.72 degree at 25.8kHz.
