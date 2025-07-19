@@ -102,9 +102,7 @@
 
 ## Sizing of transistors for 45nm Technology Node by gm/Id methodology:
 
-<img width="1544" height="1940" alt="image" src="https://github.com/user-attachments/assets/dd4f310e-5253-4f63-8c22-125e6496fcd4" />
-
-<img width="1074" height="1650" alt="image" src="https://github.com/user-attachments/assets/8affb640-f2da-406f-9707-46c7779d585b" />
+<img width="356" height="158" alt="image" src="https://github.com/user-attachments/assets/5fb0b424-eae7-4e30-bb75-2323e38bce78" />
 
 ## DC Operating Point:
 
