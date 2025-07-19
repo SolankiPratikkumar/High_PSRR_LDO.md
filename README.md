@@ -23,16 +23,18 @@
 
 ## Observations: 
 
-* The phase margin obtained is 70 degrees. This value is higher compared to that obtained for a heavy load. In the case of externally compensated LDOs, we know that the second pole is independent of changes in load current, but both the unity gain bandwidth frequency and the first pole increase with an increase in the load current.
-* Thus, under light load conditions, the unity gain bandwidth frequency is further apart from the second pole compared to the heavy load conditions. These results indicate a better phase margin for light load conditions.
-  
+* The phase margin under light load is 70°, which is higher than under heavy load conditions.
+* In externally compensated LDOs, the second pole remains constant, but the first pole and unity-gain bandwidth increase with load current leading to better phase margin at light load since the second pole is further from the unity-gain bandwidth.
+* In internally compensated LDOs, the unity-gain bandwidth remains constant, while both poles shift with increasing load. At light load, the second pole moves closer to the unity-gain bandwidth, resulting in higher phase margin.
+* Therefore, light load conditions generally result in greater phase margin and system stability compared to heavy load conditions.
+
 ## Key Takeaways:
 
 * Circuit was unstable without miller compensation with peaky loop gain at 1st pole.
 * By parametric sweep and theoretical calculator stability was improved simultaneously.
 * Make stability dependency on Miller capacitance Cc and got PSRR at Phase Margin of 45 and 70 degree respectively.
-* DC close loop PSRR at phase margin of 45 degree was coming out -58 dB at 1Hz
-* DC close loop PSRR at phase margin of 70 degree was coming out -71 dB at 1Hz
+* DC close loop PSRR at phase margin of 45 degree was coming out -58 dB at 1Hz at 10mA
+* DC close loop PSRR at phase margin of 70 degree was coming out -71 dB at 1Hz at 50mA
 
 # Schematic to Layout GDS for LDO Project with Internship:
 
