@@ -62,8 +62,6 @@
 <img width="799" height="560" alt="image" src="https://github.com/user-attachments/assets/e519dafe-0be0-41bd-90e3-eb7d42aea9ca" />
 
 ### Techplots for gm/Id Methodology:
-* Comparison of different FOMs at different lengths:
-<img width="473" height="124" alt="image" src="https://github.com/user-attachments/assets/2dcdf646-1f66-4bea-9da4-304b9ebde9f4" />
 
 * We chose the Vds to be 0.4 mV, and we expect that to result in some error because the Vds across every MOSFET might not be the same after sizing the circuit under a particular load. It is very possible that the Vds across the MOSFETs can change under different values of load current. The above phenomenon can be understood from the output log files mentioned below.
 
@@ -116,7 +114,7 @@
 
 ![Loop Gain Screenshot from 2025-05-15 02-47-50](https://github.com/user-attachments/assets/618ed5ce-bbd8-4e65-861b-46f96fef3da2)
 
-### Explanation of the artifact used for Loop Gain:-
+### Explanation of the artifact used for Loop Gain:
 
 * In order to calculate the loop gain we have given a RC circuit in the feedback loop along with a AC source with amplitude 1 (as we want to maintain an AC voltage of 1V) at the output.
 * At the same time we also need to bias the circuit and provide a dc voltage to the gate of the nmos in the differential amplifier and for this we are giving the RC circuit which will prevent the flow of dc current to ground but will send any AC signal at the output to ground at high frequency.
@@ -128,7 +126,7 @@
 
 ![OLPSRR Screenshot from 2025-05-15 04-43-32](https://github.com/user-attachments/assets/e18ec355-2b21-40d8-a431-ff6494aa7f9d)
 
-### Explanation of the artifact used for Open Loop PSRR:-
+### Explanation of the artifact used for Open Loop PSRR:
 
 * In order to calculate the open loop PSRR we need to send an AC signal from the source which in our case is VDD. Here we are giving an AC=1 signal in the source. This signal is given to the source of the passfet and the source of pmos in the diffamp.
 * We will ideally want very bad PSRR in the diffamp as we want the OTA output to have all the AC noise such that Vsg of pmos = 0 (small signal analysis).Thus all the noise will get rejected and we will get a noise free dc voltage at the output of the LDO.
@@ -145,7 +143,7 @@
 
 ![CLPSRR Screenshot from 2025-05-15 04-41-59](https://github.com/user-attachments/assets/d5db32cb-40b6-40cd-b10d-d0adb4e54e56)
 
-### Explanation of the artifact used for Close Loop PSRR:-
+### Explanation of the artifact used for Close Loop PSRR:
 * In this case we can see that we have given a AC source in the voltage source VDD. We want to see the negative feedback in the circuit due to which we will get the output voltage cancelled out (small signal analysis).
 * Here we should observe a high PSRR according to our specifications ( 60db) which tells us that our sizing is perfect. For this circuit we have given a feedback from the output terminal to the input of the diffamp which indicates the feedback path.
 
