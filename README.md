@@ -2,6 +2,7 @@
 
 # For Analog CMOS Project Electives:
 
+<img width="556" height="350" alt="image" src="https://github.com/user-attachments/assets/46c11bb5-1e12-4bae-bfda-bbf08efd2f85" />
 ![VL804_Analog_IC_Project_LDO-images-1](https://github.com/user-attachments/assets/f96dcb35-bd8f-46c8-8798-86c3c5a101e6)
 ![VL804_Analog_IC_Project_LDO-images-3](https://github.com/user-attachments/assets/6ab3c696-b1f5-46a7-9a7b-d5a52d19848f)
 ![VL804_Analog_IC_Project_LDO-images-4 (2)](https://github.com/user-attachments/assets/23201367-e941-48bc-9f9b-4b56e5773dd6)
@@ -35,7 +36,9 @@
 
 ## Sizing by gm/Id methodology:
 
-## Square Law vs gm/Id Methodology
+<img width="525" height="340" alt="image" src="https://github.com/user-attachments/assets/6684d547-61a7-402a-9e35-299937cc5e21" />
+
+## Square Law vs gm/Id Methodology:
 
 | Square Law-based Approach | Techplot-based Approach |
 |---------------------------|--------------------------|
@@ -43,12 +46,14 @@
 | Design will **take more time** for lower technology nodes as second-order effects come in picture. | Design will comparatively **take less time** as we can have a script to design the entire topology. |
 | More accurate as **exact values are considered**. | **Can be less accurate** if the dataset taken to plot **techplots** is of less resolution. |
 
-### Why gm/Id over square Law
+### Why gm/Id over square Law:
+
 * I am using the gm/Id method to size the transistors as I was working with relaxed constraints and the speed to design the circuits is comparitively faster for gm/Id methodology.
 * Most importantly as I am working with 45nm technology node short channel effects can come in the picture which will be taken care by the gm/Id methodology.
+<img width="799" height="560" alt="image" src="https://github.com/user-attachments/assets/e519dafe-0be0-41bd-90e3-eb7d42aea9ca" />
 
 ### Techplots for gm/Id Methodology:
-* Comparison of different FOMs at different lengths
+* Comparison of different FOMs at different lengths:
 <img width="473" height="124" alt="image" src="https://github.com/user-attachments/assets/2dcdf646-1f66-4bea-9da4-304b9ebde9f4" />
 
 * We chose the Vds to be 0.4 mV, and we expect that to result in some error because the Vds across every MOSFET might not be the same after sizing the circuit under a particular load. It is very possible that the Vds across the MOSFETs can change under different values of load current. The above phenomenon can be understood from the output log files mentioned below.
@@ -73,6 +78,23 @@
 
 ### Observations on Technology Scaling Effects:
 <img width="855" height="299" alt="image" src="https://github.com/user-attachments/assets/7b4e980e-0b4b-4028-991d-1e845c6d368e" />
+
+## gm/Id Methodology and Flow for Transistor Sizing:
+
+<img width="738" height="475" alt="image" src="https://github.com/user-attachments/assets/f488dbb9-c3b5-4c41-8793-8475c5d7cede" />
+
+<img width="700" height="495" alt="image" src="https://github.com/user-attachments/assets/e6538cbc-7f4f-4dee-8578-deac8f2e2daf" />
+
+<img width="705" height="509" alt="image" src="https://github.com/user-attachments/assets/9e2f8b7d-721f-4f8f-86af-32c6b87118ef" />
+
+<img width="711" height="423" alt="image" src="https://github.com/user-attachments/assets/60c8a1e9-e306-49af-9ccc-8acba25f2f5b" />
+
+<img width="715" height="491" alt="image" src="https://github.com/user-attachments/assets/ac2b7c80-528d-4cc9-9153-88d1cc151033" />
+
+## Sizing of transistors for 45nm Technology Node by gm/Id methodology:
+
+<img width="1544" height="1940" alt="image" src="https://github.com/user-attachments/assets/28eaff88-5868-4014-8219-6e088f95233e" />
+<img width="1074" height="1650" alt="image" src="https://github.com/user-attachments/assets/8affb640-f2da-406f-9707-46c7779d585b" />
 
 ## DC Operating Point:
 
