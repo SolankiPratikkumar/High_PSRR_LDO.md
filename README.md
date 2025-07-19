@@ -2,8 +2,6 @@
 
 # For Analog CMOS Project Electives:
 
-<img width="556" height="350" alt="image" src="https://github.com/user-attachments/assets/46c11bb5-1e12-4bae-bfda-bbf08efd2f85" />
-
 ![VL804_Analog_IC_Project_LDO-images-1](https://github.com/user-attachments/assets/f96dcb35-bd8f-46c8-8798-86c3c5a101e6)
 ![VL804_Analog_IC_Project_LDO-images-3](https://github.com/user-attachments/assets/6ab3c696-b1f5-46a7-9a7b-d5a52d19848f)
 ![VL804_Analog_IC_Project_LDO-images-4 (2)](https://github.com/user-attachments/assets/23201367-e941-48bc-9f9b-4b56e5773dd6)
@@ -51,6 +49,9 @@
 
 * I am using the gm/Id method to size the transistors as I was working with relaxed constraints and the speed to design the circuits is comparitively faster for gm/Id methodology.
 * Most importantly as I am working with 45nm technology node short channel effects can come in the picture which will be taken care by the gm/Id methodology.
+
+<img width="556" height="350" alt="image" src="https://github.com/user-attachments/assets/46c11bb5-1e12-4bae-bfda-bbf08efd2f85" />
+
 <img width="799" height="560" alt="image" src="https://github.com/user-attachments/assets/e519dafe-0be0-41bd-90e3-eb7d42aea9ca" />
 
 ### Techplots for gm/Id Methodology:
@@ -94,7 +95,8 @@
 
 ## Sizing of transistors for 45nm Technology Node by gm/Id methodology:
 
-<img width="1544" height="1940" alt="image" src="https://github.com/user-attachments/assets/28eaff88-5868-4014-8219-6e088f95233e" />
+<img width="1544" height="1940" alt="image" src="https://github.com/user-attachments/assets/dd4f310e-5253-4f63-8c22-125e6496fcd4" />
+
 <img width="1074" height="1650" alt="image" src="https://github.com/user-attachments/assets/8affb640-f2da-406f-9707-46c7779d585b" />
 
 ## DC Operating Point:
